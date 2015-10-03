@@ -101,14 +101,11 @@ Custome Transition:
 
 ![code4](https://cloud.githubusercontent.com/assets/5022872/10262410/7ab6030a-69f8-11e5-8395-0dadc09c46dd.gif)
 
+
 Cancel Animation:
 
 ![cancel](https://cloud.githubusercontent.com/assets/5022872/10263022/6f77f354-6a11-11e5-83e9-8dd4fbe88ab5.gif)
 
-
-Animated Clock:
-
-![clock1](https://cloud.githubusercontent.com/assets/5022872/10263025/7deb0d68-6a11-11e5-9925-7f8a3bf670ed.gif)
 
 CATransition:
 
@@ -118,10 +115,6 @@ CATransition:
 Reflection:
 
 ![simulator-screen-shot-2015 10 3 - 8 52 33](https://cloud.githubusercontent.com/assets/5022872/10263042/d2d6c092-6a11-11e5-981c-3ae97b1fc3ea.jpg)
-
-Drop shadow:
-
-![simulator-screen-shot-2015 10 3 - 8 54 42](https://cloud.githubusercontent.com/assets/5022872/10263046/de9d9766-6a11-11e5-9aba-4b21e32f47f4.jpg)
 
 
 CAEAGLLayer(OpenGL):
