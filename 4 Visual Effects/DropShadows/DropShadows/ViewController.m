@@ -27,7 +27,7 @@
     
     CALayer *layer = self.rightLayerView.layer;
     layer.shadowOffset = CGSizeMake(1, 3);
-    layer.shadowColor = [UIColor yellowColor].CGColor;
+    layer.shadowColor = [UIColor blackColor].CGColor;
     layer.shadowRadius = 20;
     layer.shadowOpacity = 1;
     layer.shadowPath = [UIBezierPath bezierPathWithRect:layer.bounds].CGPath;
