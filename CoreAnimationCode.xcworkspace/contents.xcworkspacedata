@@ -172,4 +172,16 @@
    <FileRef
       location = "group:9 Layer Time/ManualAnimation/ManualAnimation.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:10 Easing/EasingFunction/EasingFunction.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10 Easing/UIViewEasing/UIViewEasing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10 Easing/TimingWithCAKeyframeAnimation/TimingWithCAKeyframeAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10 Easing/BouncingBall/BouncingBall.xcodeproj">
+   </FileRef>
 </Workspace>
