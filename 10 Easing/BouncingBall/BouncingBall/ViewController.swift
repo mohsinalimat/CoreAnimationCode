@@ -75,7 +75,7 @@ class ViewController: UIViewController {
         for i in 1...numberFrames {
             let time = CGFloat(1.0 / Float(numberFrames) * Float(i))
             let height = bounceEaseOut(time)
-            let point = interpolateFromValue(fromValue, toValue: toValue, time: cgTime)
+            let point = interpolateFromValue(fromValue, toValue: toValue, time: height)
             frames.append(NSValue(CGPoint: point))
         }
         let animation = CAKeyframeAnimation()
