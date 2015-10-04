@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let ballImage = UIImage(named: "Ball")
         ballView = UIImageView(image: ballImage)
         containerView.addSubview(ballView)
-        animate()
+        animate1()
     }
     
     func animate() {
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         ballView.center = CGPointMake(150, 32)
         
         let fromValue  = CGPointMake(150, 32)
-        let toValue  = CGPointMake(150, 32)
+        let toValue  = CGPointMake(150, 268)
         let duration: CFTimeInterval = 1
         let numberFrames = Int(duration * 60)
         var frames = [NSValue]()
@@ -84,6 +84,7 @@ class ViewController: UIViewController {
         animation.delegate = self
         animation.values = frames
         
+        ballView.layer.position = CGPointMake(150, 268)
         ballView.layer.addAnimation(animation, forKey: nil)
     }
     
@@ -97,7 +98,7 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        animate()
+        animate1()
     }
 
     override func didReceiveMemoryWarning() {
