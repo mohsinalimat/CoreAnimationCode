@@ -97,10 +97,13 @@ Manual Animation:
 ![code3](https://cloud.githubusercontent.com/assets/5022872/10262408/68b2759e-69f8-11e5-8760-1f9f4ce1482f.gif)
 
 
-Custome Transition:
+Custom Transition:
 
 ![code4](https://cloud.githubusercontent.com/assets/5022872/10262410/7ab6030a-69f8-11e5-8395-0dadc09c46dd.gif)
 
+Bouncing ball(Complex timing curve):
+
+![bouncing](https://cloud.githubusercontent.com/assets/5022872/10268622/d65765ac-6af0-11e5-9da5-e7e0dbe1f9ee.gif)
 
 Cancel Animation:
 

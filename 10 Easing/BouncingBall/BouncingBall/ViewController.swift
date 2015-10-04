@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         var frames = [NSValue]()
         for i in 1...numberFrames {
             let time = CGFloat(1.0 / Float(numberFrames) * Float(i))
-            let cgTime = bounceEaseOut(time)
+            let height = bounceEaseOut(time)
             let point = interpolateFromValue(fromValue, toValue: toValue, time: cgTime)
             frames.append(NSValue(CGPoint: point))
         }
