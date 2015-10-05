@@ -73,9 +73,15 @@ Recently, I'm reading the book. I think I should write some code. So I copy and 
 │   ├── ManualAnimation
 │   ├── SwingingDoor
 │   └── TimeOffsetAndSpeed
+├── 10 Easing
+│   ├── BouncingBall
+│   ├── EasingFunction
+│   ├── TimingWithCAKeyframeAnimation
+│   └── UIViewEasing
+├── CoreAnimationCode.xcworkspace
 └── README.md
 
-65 directories
+72 directories
 ```
 
 You can open `CoreAnimationCode.xcworkspace` to see all projects in one workspace.
