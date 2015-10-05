@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         let ballImage = UIImage(named: "Ball")
         ballView = UIImageView(image: ballImage)
         containerView.addSubview(ballView)
+//        animate()
         animate1()
     }
     
@@ -98,6 +99,7 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        animate()
         animate1()
     }
 
