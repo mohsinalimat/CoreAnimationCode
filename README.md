@@ -1,8 +1,8 @@
 # Core Animation Code
 
-These are code examples for the book _iOS Core Animation Advanced Techniques_ written by [Nick Lockwood](https://github.com/nicklockwood), include code examples from Chapter 1 to Chapter 9. 
+These are code examples for the book _iOS Core Animation Advanced Techniques_ written by [Nick Lockwood](https://github.com/nicklockwood), include code examples from Chapter 1 to Chapter 10. 
 
-Recently, I'm reading the book. I think I should write some code. So I copy and paste the easy part from the book to Xcode, and write the hard part bodily after I understand well. Gradually, I accumulate these code examples.
+Recently, I'm reading the awesome book. I think I should write some code. So I copy and paste the easy part from the book to Xcode, and write the hard part bodily after I understand well. Gradually, I accumulate these code examples.
 
 ## Directory Tree 
 
@@ -129,4 +129,6 @@ Reflection:
 CAEAGLLayer(OpenGL):
 
 ![simulator-screen-shot-2015 10 3 - 8 50 35](https://cloud.githubusercontent.com/assets/5022872/10263047/e43eaf2a-6a11-11e5-8edf-05e2dec122ad.jpg)
+
+The whole code examples can be downloaded from here: http://www.informit.com/store/ios-core-animation-advanced-techniques-9780133440751 . This repo is some kind of duplicate work. Hope it let you know the great book.
 
