@@ -3,7 +3,7 @@
 //  ShadowPath
 //
 //  Created by lzw on 15/9/22.
-//  Copyright © 2015年 微信:  lzwjava. All rights reserved.
+//  Copyright © 2015年 WeChat: lzwjava. All rights reserved.
 //
 
 #import "ViewController.h"

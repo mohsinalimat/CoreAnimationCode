@@ -3,7 +3,7 @@
 //  TileCutter
 //
 //  Created by lzw on 15/9/30.
-//  Copyright © 2015年 微信:  lzwjava. All rights reserved.
+//  Copyright © 2015年 WeChat: lzwjava. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
