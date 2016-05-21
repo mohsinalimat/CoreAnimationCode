@@ -22,12 +22,13 @@
     
     UIImage *image = [UIImage imageNamed:@"Snowman"];
     self.layerView.layer.contents = (__bridge id)image.CGImage;
-//    self.layerView.layer.contentsGravity = kCAGravityResizeAspect;
-    self.layerView.layer.contentsGravity = kCAGravityResizeAspectFill;
-//    self.layerView.layer.contentsScale = image.scale;
+//    _layerView.contentMode = UIViewContentModeScaleAspectFit
+    self.layerView.layer.contentsGravity = kCAGravityResizeAspect;
+//    self.layerView.layer.contentsGravity = kCAGravityResizeAspectFill;
+////    self.layerView.layer.contentsScale = image.scale;
     self.layerView.layer.contentsScale = [UIScreen mainScreen].scale;
-//    self.layerView.layer.masksToBounds = YES;
-    self.layerView.layer.contentsRect = CGRectMake(0, 0, 0.5, 0.5);
+////    self.layerView.layer.masksToBounds = YES;
+    self.layerView.layer.contentsRect = CGRectMake(0.5, 0.5, 0.5, 0.5);
 }
 
 - (void)didReceiveMemoryWarning {

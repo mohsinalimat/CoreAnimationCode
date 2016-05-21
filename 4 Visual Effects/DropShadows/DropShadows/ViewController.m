@@ -23,14 +23,14 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.leftLayerView.layer.shadowOpacity = 1;
-    self.leftLayerView.layer.shadowOffset = CGSizeMake(0, 3);
+    self.leftLayerView.layer.shadowOffset = CGSizeMake(3, 3);
     
     CALayer *layer = self.rightLayerView.layer;
     layer.shadowOffset = CGSizeMake(1, 3);
-    layer.shadowColor = [UIColor blackColor].CGColor;
-    layer.shadowRadius = 20;
-    layer.shadowOpacity = 1;
-    layer.shadowPath = [UIBezierPath bezierPathWithRect:layer.bounds].CGPath;
+    layer.shadowColor = [UIColor redColor].CGColor;
+    layer.shadowRadius = 10;
+    layer.shadowOpacity = 0.5;
+//    layer.shadowPath = [UIBezierPath bezierPathWithRect:layer.bounds].CGPath;
 }
 
 - (void)didReceiveMemoryWarning {

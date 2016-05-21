@@ -28,7 +28,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     CGPoint point = [[touches anyObject] locationInView:self.view];
+//    NSLog(@"before point: %.0f, %.0f", point.x, point.y);
 //    point = [self.layerView.layer convertPoint:point fromLayer:self.view.layer];
+//    NSLog(@"after point: %.0f, %.0f", point.x, point.y);
 //    if ([self.layerView.layer containsPoint:point]) {
 //        point = [self.blueLayer convertPoint:point fromLayer:self.layerView.layer];
 //        if ([self.blueLayer containsPoint:point]) {
