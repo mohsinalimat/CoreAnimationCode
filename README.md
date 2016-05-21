@@ -130,5 +130,9 @@ CAEAGLLayer(OpenGL):
 
 ![simulator-screen-shot-2015 10 3 - 8 50 35](https://cloud.githubusercontent.com/assets/5022872/10263047/e43eaf2a-6a11-11e5-8edf-05e2dec122ad.jpg)
 
+## Book
+
+[Chinese Translate version](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques)
+
 The whole code examples can be downloaded from here: http://www.informit.com/store/ios-core-animation-advanced-techniques-9780133440751 . This repo is some kind of duplicate work. Hope it let you know the great book.
 
